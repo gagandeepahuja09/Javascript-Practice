@@ -16,3 +16,15 @@ function inArray(arr) {
     return arr.includes(x);
   }
 }
+
+
+/* sort byField
+
+users.sort(byField('name'));
+users.sort(byField('age'));
+
+*/
+
+byField(field) {
+  (a, b) => return a[field] > b[field] ? 1 : -1;
+}
