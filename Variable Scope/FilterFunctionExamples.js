@@ -1,8 +1,6 @@
 /*
-
   arr.filter(inBetween(3,6)) – selects only values between 3 and 6.
   arr.filter(inArray([1,2,3])) – selects only elements matching with one of the members of [1,2,3].
-
 */
 
 function inBetween(a, b) {
